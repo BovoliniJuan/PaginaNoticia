@@ -1,0 +1,89 @@
+.site-header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .logo-naranja {
+    color: rgb(255, 123, 0); /* Naranja Rosario3 */
+  }
+  
+  .logo-gris {
+    color: #666666;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .original-link {
+    margin-left: auto;
+  }
+  
+  .btn-original {
+    background-color: rgb(255, 123, 0); /* mismo naranja */
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-original:hover {
+    background-color: #e66e00;
+  }
+   
+  
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .main-title {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+  }
+  
+  strong {
+    color: #444;
+    font-weight: bold;
+  }
+  
