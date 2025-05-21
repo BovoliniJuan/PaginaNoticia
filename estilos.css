@@ -86,4 +86,65 @@ body {
     color: #444;
     font-weight: bold;
   }
-  
+
+@media (max-width: 1024px) {
+  .site-header {
+    padding: 12px 20px;
+  }
+
+  .logo-link {
+    font-size: 1.8em;
+  }
+
+  .btn-original {
+    padding: 7px 12px;
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .original-link {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .btn-original {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo-link {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-link {
+    font-size: 1.5em;
+  }
+
+  .btn-original {
+    font-size: 0.95em;
+  }
+
+  div {
+    padding: 1.5em;
+    margin: 1em;
+  }
+
+  .main-title {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
