@@ -153,7 +153,7 @@ body {
 
   }
   .original-link {
-   width: fit-content;
+   width:auto;
     max-width: 90%;
     padding: 8px 14px;
     margin-left: auto;
