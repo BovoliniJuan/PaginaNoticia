@@ -105,26 +105,33 @@ body {
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
+    text-align: center;
   }
 
   .original-link {
     margin-left: 0;
-    align-self: flex-start;
+    width: 100%;
   }
 
   .btn-original {
+    display: inline-block;
     font-size: 1em;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    padding: 10px 16px;
     text-align: center;
-    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .logo-link {
     font-size: 1.6em;
   }
 }
+
 
 @media (max-width: 480px) {
   .logo-link {
