@@ -155,6 +155,7 @@ body {
   .original-link {
    width: fit-content;
     max-width: 90%;
+    padding: 8px 14px;
     margin-left: auto;
     margin-right: auto;
   }
